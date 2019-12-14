@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.Keys {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 31%;
+	height: 100%;
+	padding: 9vh 2% 1vh 2%;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Keys::-webkit-scrollbar {
+	width: 0;
+	height: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Employees {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 69%;
+	height: 100%;
+	padding: 9vh 2% 0% 2%;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Employees::-webkit-scrollbar {
+	width: 0;
+	height: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.KeyList {
+	margin-top: 2vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.EmployeeList {
+	margin-top: 2vh;
+}
+
+.ShowEmployees {
+	margin-top: 2vh;
+}
+
+.AddEmployees {
+	margin-top: 2vh;
+}
+
+.createKey {
+	margin-top: 10%;
+}
+
+.Journaling {
+	padding: 9vh 2% 0% 2%;
 }
